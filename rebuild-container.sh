@@ -1,6 +1,6 @@
 #!/bin/bash
-imageName=data-cleaning-app:version0.1
-containerName=data-cleaning-app-v0.1
+imageName=?
+containerName=?
 
 echo Delete old container...
 docker rm -f $containerName
