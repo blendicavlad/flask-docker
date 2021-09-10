@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def call_service():
-    return 'Data cleaning service is now running!'
+    return 'Web server called!'
 
 
 if __name__ == '__main__':
